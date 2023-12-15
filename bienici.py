@@ -2,10 +2,9 @@ from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+import sqlalchemy as db
 
 # Gestion d'une base de données
-import sqlalchemy as db
-import openai
 
 class DataBase():
     def __init__(self, name_database='myimo'):

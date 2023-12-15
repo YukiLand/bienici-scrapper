@@ -1,7 +1,5 @@
-import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 from openaiDescription import text_generator
 
 st.set_page_config(
