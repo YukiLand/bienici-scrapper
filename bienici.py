@@ -141,7 +141,7 @@ def search_ads(city, price_min, price_max, nb_page):
 
     time.sleep(3)
 
-    i = 1 # not 0 because if we do +1 we will scrap the first page twice
+    i = 0 # not 0 because if we do +1 we will scrap the first page twice
     dataCollected = []
     time.sleep(0.5)
     while i < nb_page:
